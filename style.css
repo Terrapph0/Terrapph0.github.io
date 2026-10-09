@@ -23,7 +23,7 @@
 }
 
 /* Images */
---bg-dark: url('images/background-dark.jpg');
+--bg-dark: url('https://imgur.com/a/IQbP8ZL');
 
 body {
   color: var(--primary-color) !important;
