@@ -38,3 +38,10 @@ h3 {
   text-shadow: var(--text-shadow);
   letter-spacing: 1px;
 }
+
+
+.container {
+    max-width: none !important;
+    background-image: url(https://imgur.com/a/IQbP8ZL);
+    background-position: center 0;
+}
