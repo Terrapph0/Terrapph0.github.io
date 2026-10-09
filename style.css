@@ -56,3 +56,16 @@ h3 {
 .container::after {
 background-image: var(--bg-dark);
 }
+
+
+/* ===== CHARTS AND DATA ===== */
+/* Variables for chart colors */
+:root {
+  --chart-weak-wins: #a5077787;
+  --chart-strong-wins: rgba(255, 36, 0, 0.48);
+  --chart-weak-losses: #1b0f1b85;
+  --chart-strong-losses: #5299ffb8;
+  --chart-rating-line: var(--primary-color);
+  --chart-deviation-area: #6c0f00b0;
+  --chart-area-fill: #ff24005e;
+}
