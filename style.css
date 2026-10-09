@@ -31,6 +31,7 @@ body {
   overflow-x: hidden;
 }
 /* ===== TYPOGRAPHY ===== */
+title,
 h1,
 h2,
 h3 {
