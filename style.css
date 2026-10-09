@@ -25,10 +25,6 @@
 /* Images */
 --bg-dark: url('images/background-dark.jpg');
 
-/* ===== BASE STYLES ===== */
-* {
-  box-sizing: border-box;
-}
 body {
   color: var(--primary-color) !important;
   font-family: var(--font-primary);
@@ -51,57 +47,6 @@ h3 {
   z-index: 0;
   min-height: 100vh;
   min-width: 100vw;
+  background-image: var(--bg-dark);
 }
   
-.container::after {
-background-image: var(--bg-dark);
-}
-
-
-/* ===== CHARTS AND DATA ===== */
-/* Variables for chart colors */
-:root {
-  --chart-weak-wins: #a5077787;
-  --chart-strong-wins: rgba(255, 36, 0, 0.48);
-  --chart-weak-losses: #1b0f1b85;
-  --chart-strong-losses: #5299ffb8;
-  --chart-rating-line: var(--primary-color);
-  --chart-deviation-area: #6c0f00b0;
-  --chart-area-fill: #ff24005e;
-}
-/* Rating charts */
-.RatingsChart .weak-wins,
-.RatingsChartByGame .weak-wins {
-  fill: var(--chart-weak-wins) !important;
-}
-
-.RatingsChart .strong-wins,
-.RatingsChartByGame .strong-wins {
-  fill: var(--chart-strong-wins) !important;
-}
-
-.RatingsChart .weak-losses,
-.RatingsChartByGame .weak-losses {
-  fill: var(--chart-weak-losses) !important;
-}
-
-.RatingsChart .strong-losses,
-.RatingsChartByGame .strong-losses {
-  fill: var(--chart-strong-losses) !important;
-}
-
-.RatingsChart .chart .rating.line,
-.RatingsChartByGame .chart .rating.line {
-  stroke: var(--chart-rating-line) !important;
-}
-
-.RatingsChart .deviation-area,
-.RatingsChartByGame .deviation-area {
-  fill: var(--chart-deviation-area) !important;
-}
-
-.RatingsChart .area,
-.RatingsChartByGame .area {
-  fill: var(--chart-area-fill) !important;
-  stroke: var(--chart-rating-line) !important;
-}
