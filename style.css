@@ -22,7 +22,7 @@
   box-sizing: border-box;
 }
 
-/* Images de fond */
+/* Images */
 --bg-dark: url('https://imgur.com/a/IQbP8ZL');
 
 /* ===== BASE STYLES ===== */
@@ -30,8 +30,6 @@
   box-sizing: border-box;
 }
 body {
-  background-color: #472E97;
-  background-image: url('https://imgur.com/a/IQbP8ZL');
   color: var(--primary-color) !important;
   font-family: var(--font-primary);
   overflow-x: hidden;
@@ -47,11 +45,8 @@ h3 {
 }
 
   
-
-
-  
 .container {
     max-width: none !important;
-    background-image: url('https://imgur.com/a/IQbP8ZL');
+    background-image: url(https://imgur.com/a/IQbP8ZL);
     background-position: center 0;
 }
