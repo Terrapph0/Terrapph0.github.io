@@ -30,8 +30,8 @@
   box-sizing: border-box;
 }
 body {
-  /* background-color: var(--bg-dark); */
-  background-image: url(https://imgur.com/a/IQbP8ZL);
+  background-color: #472E97;
+  background-image: url('https://imgur.com/a/IQbP8ZL');
   color: var(--primary-color) !important;
   font-family: var(--font-primary);
   overflow-x: hidden;
