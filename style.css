@@ -41,6 +41,9 @@ h3 {
   letter-spacing: 1px;
 }
 
+navbar {
+  background-color: blue;
+}
   
 /* ===== MAIN CONTAINER ===== */
 .container {
