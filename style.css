@@ -1,3 +1,6 @@
+@import url('https://fonts.google.com/share?selection.family=Turret+Road:wght@200;300;400;500;700;800');
+@import url('https://www.fontspace.com/trench-font-f18737');
+  
 /* ===== CSS VARIABLES ===== */
 :root {
   /* color schemas */
@@ -11,7 +14,7 @@
 /* Polices */
 --font-primary: "Segoe UI", sans-serif;
 --font-display: 'Trench Font', cursive;
---font-decorative: 'Turret Road ';
+--font-decorative: 'Turret Road';
 
   
 /* ===== BASE STYLES ===== */
