@@ -22,13 +22,19 @@
   box-sizing: border-box;
 }
 
+/* Images de fond */
+--bg-dark: url('https://imgur.com/a/IQbP8ZL');
+
+/* ===== BASE STYLES ===== */
+* {
+  box-sizing: border-box;
+}
 body {
-  /* background-color: var(--bg-dark); */
+  background-color: var(--bg-dark);
   color: var(--primary-color) !important;
   font-family: var(--font-primary);
   overflow-x: hidden;
 }
-
 /* ===== TYPOGRAPHY ===== */
 h1,
 h2,
