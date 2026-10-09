@@ -3,3 +3,35 @@
   /* color schemas */
   --primary-color: rgb(71, 46, 151);
   --secondary-color: #3E51C9;
+  --gradient-primary: linear-gradient(45deg, ##472E97, #3E51C9);
+  --gradient-navbar-dark: linear-gradient(45deg, ##472E97, #3E51C9);
+  --gradient-navbar-light: linear-gradient(45deg, ##472E97, #3E51C9);
+
+
+/* Polices */
+--font-primary: "Segoe UI", sans-serif;
+--font-display: 'Trench Font', cursive;
+--font-decorative: 'Turret Road ';
+
+  
+/* ===== BASE STYLES ===== */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  /* background-color: var(--bg-dark); */
+  color: var(--primary-color) !important;
+  font-family: var(--font-primary);
+  overflow-x: hidden;
+}
+
+/* ===== TYPOGRAPHY ===== */
+h1,
+h2,
+h3 {
+  font-family: var(--font-display);
+  color: var(--primary-color);
+  text-shadow: var(--text-shadow);
+  letter-spacing: 1px;
+}
