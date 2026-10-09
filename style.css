@@ -23,7 +23,8 @@
 }
 
 /* Images */
---bg-dark: url(images/background-dark.jpg) !important;
+--bg-dark: url(images/background-dark2.jpg) !important;
+  
 
 body {
   color: var(--primary-color) !important;
