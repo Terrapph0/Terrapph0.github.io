@@ -69,3 +69,39 @@ background-image: var(--bg-dark);
   --chart-deviation-area: #6c0f00b0;
   --chart-area-fill: #ff24005e;
 }
+/* Rating charts */
+.RatingsChart .weak-wins,
+.RatingsChartByGame .weak-wins {
+  fill: var(--chart-weak-wins) !important;
+}
+
+.RatingsChart .strong-wins,
+.RatingsChartByGame .strong-wins {
+  fill: var(--chart-strong-wins) !important;
+}
+
+.RatingsChart .weak-losses,
+.RatingsChartByGame .weak-losses {
+  fill: var(--chart-weak-losses) !important;
+}
+
+.RatingsChart .strong-losses,
+.RatingsChartByGame .strong-losses {
+  fill: var(--chart-strong-losses) !important;
+}
+
+.RatingsChart .chart .rating.line,
+.RatingsChartByGame .chart .rating.line {
+  stroke: var(--chart-rating-line) !important;
+}
+
+.RatingsChart .deviation-area,
+.RatingsChartByGame .deviation-area {
+  fill: var(--chart-deviation-area) !important;
+}
+
+.RatingsChart .area,
+.RatingsChartByGame .area {
+  fill: var(--chart-area-fill) !important;
+  stroke: var(--chart-rating-line) !important;
+}
