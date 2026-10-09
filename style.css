@@ -45,7 +45,37 @@ h3 {
   letter-spacing: 1px;
 }
 
+  
+/* ===== MAIN CONTAINER ===== */
+.container {
+  position: relative;
+  z-index: 0;
+  min-height: 100vh;
+  min-width: 100vw;
+}
 
+.container::before,
+.container::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background-repeat: repeat;
+  background-size: contain;
+  background-position: 40 center;
+  transition: clip-path 2s cubic-bezier(1, 0, 0, 1);
+  pointer-events: none;
+}
+
+.container::before {
+  background-image: var(--bg-light);
+}
+
+.container::after {
+  background-image: var(--bg-dark);
+}
+
+  
 .container {
     max-width: none !important;
     background-image: url('https://imgur.com/a/IQbP8ZL');
