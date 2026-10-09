@@ -1,7 +1,7 @@
-ul.topnav {
-  display: flex;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  background-color: #333333;
-}
+:root {
+  /* color schemas */
+  --primary-color: rgb(71, 46, 151);
+  --secondary-color: #3E51C9;
+  --gradient-primary: linear-gradient(45deg, ##472E97, #3E51C9);
+  --gradient-navbar-dark: linear-gradient(45deg, ##472E97, #3E51C9);
+  --gradient-navbar-light: linear-gradient(45deg, ##472E97, #3E51C9);
