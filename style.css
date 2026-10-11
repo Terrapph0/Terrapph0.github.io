@@ -32,6 +32,7 @@ body {
   font-family: var(--font-primary);
   overflow-x: hidden;
 }
+
 /* ===== TYPOGRAPHY ===== */
 title,
 h1,
@@ -43,16 +44,16 @@ h3 {
   letter-spacing: 1px;
 }
 
-NavBar {
-  background-color: blue;
-}
-  
 /* ===== MAIN CONTAINER ===== */
 .container {
   position: relative;
   z-index: 0;
   min-height: 100vh;
   min-width: 100vw;
-  background-image: var(--bg-dark) !important;
+  /* background-image: var(--bg-dark) !important; */
 }
-  
+.container {
+  max-width: none !important;
+  background-image: var(--bg-dark) !important;
+  background-position: center 0;
+}
